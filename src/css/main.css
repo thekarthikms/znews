@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 100ms linear 0s;
+  transition: all 100ms linear 0s;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto', 'Poppins', sans-serif;
+}
+
+#app {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app .container {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#app .container .main-nav-container {
+  width: 100%;
+  height: 5vh;
+  color: #eee;
+  font-size: 0.9rem;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#app .container .main-nav-container .link-nav-container ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app .container .main-nav-container .link-nav-container ul li {
+  margin: 0 30px;
+}
+
+#app .container .main-nav-container .link-nav-container ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#app .container .main-nav-container .social-nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app .container .main-nav-container .social-nav-container .socials {
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app .container .main-nav-container .social-nav-container .socials i {
+  margin: 0 10px;
+}
+
+#app .container .main-nav-container .social-nav-container .socials :hover {
+  color: red;
+  cursor: pointer;
+}
+
+#app .container .main-nav-container .social-nav-container .date-time {
+  margin: 0 10px;
+}
+
+#app .container .main-nav-container .social-nav-container .login {
+  margin: 0 10px;
+}
+
+#app .container .main-nav-container .social-nav-container .login p {
+  margin: 0 10px;
+}
+
+#app .container .main-nav-container .social-nav-container .login :hover {
+  cursor: pointer;
+  color: red;
+}
+
+#app .container .header-container {
+  width: 100%;
+  height: 10vh;
+  padding: 10px;
+}
+
+#app .container .header-container .logo h1 {
+  font-family: 'Poppins';
+  font-size: 4rem;
+  color: red;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 90%;
+}
+
+#app .container .header-container .logo h1:hover {
+  cursor: pointer;
+}
+
+#app .container .header-container .logo p {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  margin-top: 0;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#app .container .second-nav-container {
+  width: 100%;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#app .container .second-nav-container .nav-container {
+  font-weight: 500;
+  height: 100%;
+  color: #333;
+}
+
+#app .container .second-nav-container .nav-container ul {
+  height: inherit;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app .container .second-nav-container .nav-container ul li {
+  margin: 0 20px;
+}
+
+#app .container .second-nav-container .nav-container ul li:hover {
+  cursor: pointer;
+}
+
+#app .container .second-nav-container .search-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 30px;
+  font-size: 1.3rem;
+}
+
+#app .container .second-nav-container .search-container:hover {
+  cursor: pointer;
+}
+
+#app .container .breaking-news-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+  height: 5vh;
+  border: 2px solid red;
+}
+
+#app .container .breaking-news-container .title {
+  height: 100%;
+  padding: 10px 0px;
+  width: 10%;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  color: white;
+}
+
+#app .container .breaking-news-container .news-flash {
+  padding: 10px 10px;
+  width: 90%;
+}
+
+#app .container .main-content-container {
+  width: 100%;
+  margin: 20px 0;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#app .container .main-content-container .main-content {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 65%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#app .container .main-content-container .main-content .main-img {
+  height: 700px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#app .container .main-content-container .main-content .main-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#app .container .main-content-container .main-content .sub-img {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#app .container .main-content-container .main-content .sub-img .sub {
+  width: 20%;
+  height: 100px;
+}
+
+#app .container .main-content-container .main-content .sub-img .sub img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#app .container .main-content-container .side-content {
+  height: 80vh;
+  width: 35%;
+  padding: 10px;
+}
+
+#app .container .main-content-container .side-content .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#app .container .main-content-container .side-content .content-container .news-select {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#app .container .main-content-container .side-content .content-container .news-select .select-style {
+  padding: 10px 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#app .container .main-content-container .side-content .content-container .news-select :hover {
+  color: red;
+}
+
+#app .container .main-content-container .side-content .content-container .news-select .active {
+  color: red;
+}
+
+#app .container .main-content-container .side-content .content-container .news-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 10px 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#app .container .main-content-container .side-content .content-container .news-content .n-content {
+  width: 100%;
+  height: 15vh;
+  padding: 10px;
+  margin: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+#app .container .main-content-container .side-content .content-container .news-content .n-content .news-img {
+  width: 35%;
+  height: 100%;
+}
+
+#app .container .main-content-container .side-content .content-container .news-content .n-content .news-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#app .container .main-content-container .side-content .content-container .news-content .n-content .news-details {
+  height: 100%;
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+}
+
+#app .container .main-content-container .side-content .content-container .news-content .n-content .news-details .news-title h1 {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+#app .container .main-content-container .side-content .content-container .news-content .n-content .news-details .news-author-time {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#app .container .main-content-container .side-content .content-container .news-content :hover {
+  color: red;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
