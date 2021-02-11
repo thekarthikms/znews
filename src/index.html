@@ -12,8 +12,8 @@
 
 <body>
     <div id="app">
-        <div class="container">
-            <div class="main-nav-container">
+        <div class="main-nav-container flex">
+            <div class="top-nav-items container flex">
                 <div class="link-nav-container">
                     <ul>
                         <li>HOME</li>
@@ -39,25 +39,64 @@
                     </div>
                 </div>
             </div>
-            <div class="header-container">
-                <div class="logo">
-                    <h1>ZNews</h1>
-                    <p>News Blogs and Magazine Templates</p>
-                </div>
+        </div>
+        <div class="header-container flex">
+            <div class="logo container">
+                <h1>ZNews</h1>
+                <p>News Blogs and Magazine Templates</p>
             </div>
-            <div class="second-nav-container">
+        </div>
+        <div class="second-nav-container flex">
+            <div class="second-nav-items container flex">
                 <div class="nav-container">
-                    <ul>
-                        <li>HOME <i class="fa fa-angle-down"></i></li>
+                    <ul class="flex">
+                        <li>HOME <i class="fa fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#">NEWSPAPER</a>
+                                <a href="#">MAGAZINE</a>
+                                <a href="#">BLOGS</a>
+                                <a href="#">TRAVEL</a>
+                                <a href="#">LIFESTYLE</a>
+                                <a href="#">SPORTS</a>
+                              </div></li>
                         <li>FASHION</li>
                         <li>LIFESTYLE</li>
-                        <li>MEGAMENU <i class="fa fa-angle-down"></i></li>
+                        <li>MEGAMENU <i class="fa fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#">All News</a>
+                                <a href="#">Travel Tips</a>
+                                <a href="#">Communication</a>
+                                <a href="#">Business News</a>
+                              </div></li>
                         <li>TRAVEL</li>
                         <li>BUSINESS</li>
                         <li>SPORTS</li>
-                        <li>BLOG <i class="fa fa-angle-down"></i></li>
-                        <li>PAGES <i class="fa fa-angle-down"></i></li>
-                        <li>SHOP <i class="fa fa-angle-down"></i></li>
+                        <li>BLOG <i class="fa fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#">SINGLE BLOG IMAGE 1</a>
+                                <a href="#">SINGLE BLOG IMAGE 2</a>
+                                <a href="#">SINGLE BLOG VIDEO 1</a>
+                                <a href="#">SINGLE BLOG VIDEO 2</a>
+                                <a href="#">SINGLE BLOG AUDIO 1</a>
+                                <a href="#">SINGLE BLOG AUDIO 2</a>
+                                
+                              </div></li>
+                        <li>PAGES <i class="fa fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#">BLOGS</a>
+                                <a href="#">ARCHIVE 1</a>
+                                <a href="#">ARCHIVE 2</a>
+                                <a href="#">CONTACT 1</a>
+                                <a href="#">CONTACT 2</a>
+                                <a href="#">REGISRATION</a>
+                                <a href="#">PAGE NOT FOUND 404  </a>
+                              </div></li>
+                        <li>SHOP <i class="fa fa-angle-down"></i>
+                            <div class="dropdown-content">
+                                <a href="#">SHOP</a>
+                                <a href="#">SHOP DETAILS</a>
+                                <a href="#">CART PAGE</a>
+                              </div></li>
                         <li>CONTACT</li>
                     </ul>
                 </div>
@@ -65,96 +104,60 @@
                     <i class="fa fa-search"></i>
                 </div>
             </div>
-            <div class="breaking-news-container">
-                <div class="title"><p>BREAKING NEWS</p></div>
-                <div class="news-flash"><p><marquee behavior="scroll" direction="left" scrollamount="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni labore mollitia obcaecati aliquid rem minima provident doloribus tempore officiis corporis, necessitatibus quidem dolores ipsa voluptas dolorem facilis! Asperiores nulla impedit facere, soluta quos, autem numquam officia aut ipsum, fugit libero? Quam, laboriosam odio repellat laborum fuga ratione numquam nisi optio sapiente suscipit rem, deleniti aut tenetur blanditiis recusandae illum, saepe a harum? Asperiores aut maxime similique. Quia ratione dolores eum suscipit aliquam, sint odit asperiores commodi voluptatibus voluptas distinctio nemo ipsum nostrum quis quam doloribus nobis itaque delectus officiis amet. Velit et blanditiis consequatur, ex error veniam quaerat ea magni inventore, illum sint perferendis cum corporis, fugit maiores odit tenetur tempora iste nobis temporibus provident ducimus dicta ipsum. Alias, perspiciatis a fugit culpa nisi voluptatibus quo consectetur, eius totam molestiae sunt debitis vel! Reiciendis necessitatibus natus velit dolore similique ut. Repellat facilis cumque quisquam at perspiciatis repellendus libero, eos doloribus, sit esse a atque dolore magnam! Facere nam, ipsa reiciendis iste, ea doloremque nisi animi at, distinctio error molestias numquam fugit dolore beatae placeat voluptate in. Est porro a quam iusto quidem dolorum cupiditate quod odit praesentium molestiae dolor dolores, ab repudiandae adipisci ad, tenetur laboriosam commodi, dicta rem?</marquee></p></div>
+        </div>
+        <div class="breaking-news-container flex">
+            <div class="break-news-items container flex">
+                <div class="title flex">
+                    <p>BREAKING NEWS</p>
+                </div>
+                <div class="news-flash">
+                    <p>
+                        <marquee behavior="scroll" direction="left" scrollamount="10">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Distinctio magni labore mollitia obcaecati aliquid rem minima
+                            provident doloribus tempore officiis corporis, necessitatibus quidem dolores ipsa voluptas
+                            dolorem facilis! Asperiores nulla impedit facere, soluta quos, autem numquam officia aut
+                            ipsum, fugit libero? Quam, laboriosam odio repellat laborum fuga ratione numquam nisi optio
+                            sapiente suscipit rem, deleniti aut tenetur blanditiis recusandae illum, saepe a harum?
+                            Asperiores aut maxime similique. Quia ratione dolores eum suscipit aliquam, sint odit
+                            asperiores commodi voluptatibus voluptas distinctio nemo ipsum nostrum quis quam doloribus
+                            nobis itaque delectus officiis amet. Velit et blanditiis consequatur, ex error veniam
+                            quaerat ea magni inventore, illum sint perferendis cum corporis, fugit maiores odit tenetur
+                            tempora iste nobis temporibus provident ducimus dicta ipsum. Alias, perspiciatis a fugit
+                            culpa nisi voluptatibus quo consectetur, eius totam molestiae sunt debitis vel! Reiciendis
+                            necessitatibus natus velit dolore similique ut. Repellat facilis cumque quisquam at
+                            perspiciatis repellendus libero, eos doloribus, sit esse a atque dolore magnam! Facere nam,
+                            ipsa reiciendis iste, ea doloremque nisi animi at, distinctio error molestias numquam fugit
+                            dolore beatae placeat voluptate in. Est porro a quam iusto quidem dolorum cupiditate quod
+                            odit praesentium molestiae dolor dolores, ab repudiandae adipisci ad, tenetur laboriosam
+                            commodi, dicta rem?</marquee>
+                    </p>
+                </div>
             </div>
-            <div class="main-content-container">
+        </div>
+        <div class="main-content-container">
                 <div class="main-content">
-                    <div class="main-img">
-                        <img src="./img/843210.jpg" alt="">
-                    </div>
-                    <div class="sub-img">
-                        <div class="sub"><img src="./img/612520.png" alt=""></div>
-                        <div class="sub"><img src="./img/mountain.jpg" alt=""></div>
-                        <div class="sub"><img src="./img/843210.jpg" alt=""></div>
-                        <div class="sub"><img src="./img/mountain.jpg" alt=""></div>
-                        <div class="sub"><img src="./img/612520.png" alt=""></div>
+                    <div class="sub-img wrapper" id="subimg">
+                        <div class="sub item1"></div>
+                        <div class="sub item2"></div>
+                        <div class="sub item3"></div>
+                        <div class="sub item4"></div>
+                        <div class="sub item5"></div>
                     </div>
                 </div>
                 <div class="side-content">
                     <div class="content-container">
                         <div class="news-select">
-                            <div class="latest select-style active"><p>LATEST</p></div>
-                            <div class="comments select-style"><p>COMMENTS</p></div>
-                            <div class="trending select-style"><p>TRENDING</p></div>
+                            <div class="latest select-style active" id="latest"><p>LATEST</p></div>
+                            <div class="comments select-style" id="comment"><p>COMMENTS</p></div>
+                            <div class="trending select-style" id="trending"><p>TRENDING</p></div>
                         </div>
-                        <div class="news-content">
-                            <div class="n-content">
-                                <div class="news-img">
-                                    <img src="./img/612520.png" alt="">
-                                </div>
-                                <div class="news-details">
-                                    <div class="news-title"><h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, eius?</h1></div>
-                                    <div class="news-author-time">
-                                        <p>Shawn Pierce</p>
-                                        <p>April 18,2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="n-content">
-                                <div class="news-img">
-                                    <img src="./img/mountain.jpg" alt="">
-                                </div>
-                                <div class="news-details">
-                                    <div class="news-title"><h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, eius?</h1></div>
-                                    <div class="news-author-time">
-                                        <p>Shawn Pierce</p>
-                                        <p>April 18,2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="n-content">
-                                <div class="news-img">
-                                    <img src="./img/843210.jpg" alt="">
-                                </div>
-                                <div class="news-details">
-                                    <div class="news-title"><h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, eius?</h1></div>
-                                    <div class="news-author-time">
-                                        <p>Shawn Pierce</p>
-                                        <p>April 18,2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="n-content">
-                                <div class="news-img">
-                                    <img src="./img/612520.png" alt="">
-                                </div>
-                                <div class="news-details">
-                                    <div class="news-title"><h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, eius?</h1></div>
-                                    <div class="news-author-time">
-                                        <p>Shawn Pierce</p>
-                                        <p>April 18,2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="n-content">
-                                <div class="news-img">
-                                    <img src="./img/mountain.jpg" alt="">
-                                </div>
-                                <div class="news-details">
-                                    <div class="news-title"><h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, eius?</h1></div>
-                                    <div class="news-author-time">
-                                        <p>Shawn Pierce</p>
-                                        <p>April 18,2020</p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="news-content" id="newscontent">
+                            
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+
     </div>
     <script src="index.js"></script>
 </body>
